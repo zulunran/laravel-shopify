@@ -34,13 +34,9 @@ jobs:
           - php: '8.0'
             laravel: '7.0'
           - php: '8.0'
-            laravel: '8.22'
-          - php: '8.0'
             laravel: '9.0'
 
         include:
-          - php: '8.0'
-            laravel: '8.22'
           - php: '8.0'
             laravel: '9.0'
             analysis: true
